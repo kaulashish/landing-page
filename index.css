@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#topbar{
+    box-sizing: border-box;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    padding: 20px 30px 0 30px;
+    justify-content: space-between;
+}
+
+#logo{
+    max-width: 100%;
+    height: auto;
+    transform: scale(0.5, 0.5);
+}
+
+#links-wrapper{
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#links-wrapper a{
+    color: #8b8b99;
+    text-decoration: none;
+    outline: none;
+    margin: 0 24px;
+    justify-content: space-between;
+    transition: all 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+#links-wrapper a:hover{
+    color: black;
+    box-shadow: 0 3px 0 0 #320b86;
+}
+
+#btn-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    align-items: center;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 18px 34px;
+    margin-right: 50px;
+    transition: all 0.4s;
+    transition-timing-function: ease-in-out;
+    box-shadow: 3px 8px 8px lightgray;
+}
+
+#pink-btn{
+    background-color: #ffcdd2;
+    color: #673ab1;
+}
+
+#pink-btn:hover{
+    background-color: #f48fb1;
+    color: white;
+}
+
+#landing-page-container{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding-top: 70px;
+    height: calc(100vh - 120px);
+}
+
+#landing-section-left{
+    box-sizing: border-box;
+    width: 50%;
+    padding-left: 20vh;
+}
+
+#landing-section-left h1{
+    font-size: 60px;
+    margin:0;
+}
+
+#landing-section-left i{
+    color: blue;
+    font-size: 10px;
+}
+
+#landing-section-left p{
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    display: flex;
+    flex-direction: column;
+}
+
+#image-container{
+    justify-content: center;
+    align-items: center;
+}
+
+#landing-section-img{
+    height: 70vh;
+    transform:scale(0.9, 0.9);
+}
+
+#btn-section{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#btn-section img{
+    margin-left: 30px;
+}
+
+#blue-btn{
+    background-color: #4a148c;
+    color: white;
+}
